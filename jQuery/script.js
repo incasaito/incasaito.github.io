@@ -19,6 +19,14 @@ $(function() {
     
     
     
+    $(".gallery-btn").click(function() {
+        $("#modal").css("display","block");
+    })
+    
+    $(".exit").click(function() {
+        $("#modal").css("display","none");
+    })
+    
 });
 
 
