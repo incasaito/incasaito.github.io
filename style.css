@@ -102,6 +102,9 @@
         height: 350px;
         box-shadow: 2px 5px 20px rgba(0, 0, 0, 0.79);
     }
+    .left-footer h2 {
+        margin: 120px 0 !important;
+    }
 }
 @media (min-width: 500px) and (max-width: 767.98px) {
     .box-image {
