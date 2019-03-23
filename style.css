@@ -481,43 +481,14 @@ a:hover {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*================= Jumbotron ==================*/
 
 .jumbotron2 {
     margin-bottom: 0;
 }
 
 
-
-
-
-
-
-
+/*================= Painting Side Nav ==================*/
 
 
 #left ul {
@@ -541,30 +512,18 @@ a:hover {
 #left ul a:hover {
     color: red;
 }
+#left {
+    float: left;
+}
 
+/*================= Painting Side Gallery ==================*/
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#right {
+    float: right;
+    border-width: 1px;
+    border-style: solid;
+    border-image: linear-gradient(rgba(255, 255, 255, 0.5), #000000, rgba(255, 255, 255, 0.5)) 1;
+}
 .gallery-btn {
     font-weight: 900;
     color: white;
@@ -578,93 +537,14 @@ a:hover {
     letter-spacing: 1px;
     box-shadow: 1.5px 1.5px  6px #fa5353;
 }
-
-
-
-
-
-
-
-
-
-
-#left {
-    float: left;
-}
-
-#right {
-    float: right;
-    border-width: 1px;
-    border-style: solid;
-    border-image: linear-gradient(rgba(255, 255, 255, 0.5), #000000, rgba(255, 255, 255, 0.5)) 1;
-}
-
-
-
-
 .card {
     margin-bottom: 34px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.btn-categories {
-    display: block;
-    margin: 10px;
-    font-size: 30px;
-    font-weight: 900;
-    padding: 0 0 0 30px;
-    margin: 0;
-    padding: 0;
-    outline: none;
-}
-
-
-
-
-
-
 .container-gallery {
     margin: 200px 70px;
 }
 
-
-
-
-
-.clearfix {
-    content: "";
-    display: table;
-    clear: both;
-}
-
-
-
-
-
-
-
-
+/*================= Modal ==================*/
 
 #modal {
     display: none;
@@ -689,53 +569,49 @@ a:hover {
     background-color: skyblue;
 }
 
-
-
-
-
-.footer-container {
-    padding: 20px;
-    height: 200px;
+/*================= Footer ==================*/
+.left-footer {
+    float:left;
+    width: 50%;
+    height: 276px;
+    background-color: rgba(0, 0, 0, 0.88);
+}
+.left-footer h2 {
+    text-align: center;
+    margin: 100px 0;
+    color: white;
+    font-size: 32px;
 }
 
+.right-footer {
+    float:left;
+    width: 50%;
+    height: 276px;
+    background-color: rgba(0, 0, 0, 0.88);
+}
 footer img {
-    float: right;
-    width: 50px;
-    margin-left: 20px;
-    margin-top: 40px;
-    margin-right: 6px;
-}
-footer h2 {
-    float: left;
-    color: white;
-    font-size: 25px;
-    width: 90px;
-    margin-top: 57px;
-    margin-left: 22px;
-    text-align: center;
-}
-footer h3 {
-    float: right;
-    color: white;
-    margin-right: 20px;
-    margin-top: 15px;
-    font-size: 25px;
+    width: 40px;
+    height: 40px;
+    margin: 110px;
+    margin-left: 12px;
+    margin-right: 5px;
 }
 .footer-credit {
-    color: white;
-    padding: 0;
-    margin: 0;
-}
-footer span {
-    height: 180px;
-    width: 1px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), #ffffff, rgba(0, 0, 0, 0.5));
     display: block;
-    float: left;
-    margin-left: 45px;
-}
-.footer-credit {
     text-align: center;
+    color: white;
+    background-color: rgb(11, 11, 11);
+    width: 100%;
+}
+.email {
+    height: 55px;
+}
+
+/*================= Clearfix ==================*/
+.clearfix {
+    content: "";
+    display: table;
+    clear: both;
 }
 
 
@@ -748,7 +624,19 @@ footer span {
 
 
 
-footer {
-    background-color: rgba(0, 0, 0, 0.9);
+
+
+/*
+.btn-categories {
+    display: block;
+    margin: 10px;
+    font-size: 30px;
+    font-weight: 900;
+    padding: 0 0 0 30px;
+    margin: 0;
     padding: 0;
+    outline: none;
 }
+*/
+
+
